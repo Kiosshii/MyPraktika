@@ -1,22 +1,22 @@
 # MyPraktika
 123
 [README.md](https://github.com/user-attachments/files/23756476/README.md)
-## PomogSlonyare
+## BistaLift
 
 Двуxкомпонентная система технической поддержки:
 
-- **PomogSlonyare Admin** — WinForms‑приложение администратора (.NET 8, x86) с CRUD по пользователям и заявкам.
-- **PomogSlonyare Client** — отдельное WinForms‑приложение для клиентов (регистрация, авторизация, собственные заявки).
+- **BistaLift Admin** — WinForms‑приложение администратора (.NET 8, x86) с CRUD по пользователям и заявкам.
+- **BistaLift Client** — отдельное WinForms‑приложение для клиентов (регистрация, авторизация, собственные заявки).
 - **Access/Jet база** — файл `PomogSlonyareData.mdb`, подключаемый через `System.Data.OleDb`. Таблицы и тестовые данные создаются автоматически при первом запуске.
 
 ### Стек и структура
 
 ```
-PomogSlonyare.Admin   # Панель администратора
-PomogSlonyare.Client  # Клиентское приложение
-PomogSlonyare.Shared  # Общие модели + Access-репозиторий
-PomogSlonyareData.mdb # Шаблон БД с начальными записями
-PomogSlonyare.sln     # Общее решение
+BistaLift.Admin   # Панель администратора
+BistaLift.Client  # Клиентское приложение
+BistaLift.Shared  # Общие модели + Access-репозиторий
+PBistaLift.mdb # Шаблон БД с начальными записями
+BistaLift.sln     # Общее решение
 ```
 
 ### Требования
