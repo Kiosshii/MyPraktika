@@ -1,4 +1,4 @@
-# MyPraktika
+# MyPraktika2
 123
 [README.md](https://github.com/user-attachments/files/23756476/README.md)
 ## BistaLift2
